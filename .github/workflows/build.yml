@@ -23,6 +23,9 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ${{ env.DOCKER_REGISTRY }}
 
+      - name: Prepare
+        run: mv bot-config.json.example bot-config.json
+
       - name: Tag
         uses: olegtarasov/get-tag@v2
       - name: Sha
