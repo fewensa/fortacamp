@@ -26,7 +26,7 @@ jobs:
       - name: Tag
         uses: olegtarasov/get-tag@v2
       - name: Sha
-        uses: benjlevesque/short-sha@v3
+        uses: benjlevesque/short-sha@v3.0
 
       - name: Publish docker image
         uses: docker/build-push-action@v6
