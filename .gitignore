@@ -19,4 +19,5 @@ build
 
 _tmp
 *.out
+*.tsbuildinfo
 
