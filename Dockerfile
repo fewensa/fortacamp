@@ -17,5 +17,5 @@ COPY ./src ./src
 COPY ./abi ./abi
 COPY bot-config.json ./
 COPY package*.json ./
-RUN npm ci --production
+RUN npm i --omit=dev
 CMD [ "npm", "run", "start:prod" ]
