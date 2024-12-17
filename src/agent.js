@@ -1,15 +1,15 @@
 /* eslint-disable global-require */
 const botImports = [
   { name: 'account-balance', bot: require('./account-balance/agent') },
-  { name: 'address-watch', bot: require('./address-watch/agent') },
+  // { name: 'address-watch', bot: require('./address-watch/agent') },
   { name: 'monitor-events', bot: require('./monitor-events/agent') },
-  { name: 'contract-variable-monitor', bot: require('./contract-variable-monitor/agent') },
-  { name: 'gnosis-safe-multisig', bot: require('./gnosis-safe-multisig/agent') },
-  { name: 'governance', bot: require('./governance/agent') },
-  { name: 'monitor-function-calls', bot: require('./monitor-function-calls/agent') },
-  { name: 'new-contract-interaction', bot: require('./new-contract-interaction/agent') },
-  { name: 'tornado-cash-monitor', bot: require('./tornado-cash-monitor/agent') },
-  { name: 'transaction-failure-count', bot: require('./transaction-failure-count/agent') },
+  // { name: 'contract-variable-monitor', bot: require('./contract-variable-monitor/agent') },
+  // { name: 'gnosis-safe-multisig', bot: require('./gnosis-safe-multisig/agent') },
+  // { name: 'governance', bot: require('./governance/agent') },
+  // { name: 'monitor-function-calls', bot: require('./monitor-function-calls/agent') },
+  // { name: 'new-contract-interaction', bot: require('./new-contract-interaction/agent') },
+  // { name: 'tornado-cash-monitor', bot: require('./tornado-cash-monitor/agent') },
+  // { name: 'transaction-failure-count', bot: require('./transaction-failure-count/agent') },
 ];
 /* eslint-enable global-require */
 
