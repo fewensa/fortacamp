@@ -1,0 +1,32 @@
+{
+  "name": "forta-developer-protocol-bigagent",
+  "version": "0.0.1",
+  "description": "Forta Bot template for monitoring a large combination of conditions",
+  "chainIds": [42161, 44, 46],
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "nodemon --watch src --watch forta.config.json --watch agent-config.json -e js,json --exec 'forta-agent run'",
+    "start:prod": "forta-agent run --prod",
+    "tx": "forta-agent run --tx",
+    "block": "forta-agent run --block",
+    "range": "forta-agent run --range",
+    "file": "forta-agent run --file",
+    "publish": "forta-agent publish",
+    "push": "forta-agent push",
+    "disable": "forta-agent disable",
+    "enable": "forta-agent enable",
+    "keyfile": "forta-agent keyfile",
+    "test": "jest agent.spec.js",
+    "validate": "node ./src/validate-config.js"
+  },
+  "dependencies": {
+    "forta-agent": "^0.1.48",
+    "bignumber.js": "^9.1.2",
+    "rolling-math": "^0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9"
+  }
+}

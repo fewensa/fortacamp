@@ -20,3 +20,6 @@ build
 _tmp
 *.out
 *.tsbuildinfo
+node_modules
+forta.config.json
+bot-config.json
